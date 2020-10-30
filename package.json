@@ -1,0 +1,39 @@
+{
+  "name": "style_nodejs",
+  "version": "1.0.0",
+  "description": "style nodejs api rest",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.11",
+    "mongoose-unique-validator": "^2.0.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Toxiicsab/style-nodejs.git"
+  },
+  "author": "Yeison Garzon T.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Toxiicsab/style-nodejs/issues"
+  },
+  "homepage": "https://github.com/Toxiicsab/style-nodejs#readme",
+  "engines": {
+    "node": "12.18.2",
+    "npm": "6.13.4"
+  }
+}
